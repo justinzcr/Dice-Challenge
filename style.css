@@ -7,8 +7,7 @@ html {
 }
 
 /* To be changed */
-h1,
-h3 {
+h1,h3 {
   text-decoration-color: aliceblue;
   color: green;
   font-family: "Roboto Slab", serif;
@@ -33,6 +32,7 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+
 @media (max-width: 700px) {
   #block_row {
     margin-top: 25px;
