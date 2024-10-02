@@ -16,6 +16,6 @@ if (randomNumber1 > randomNumber2) {
 }
 
 function onclickButton() {
-    document.firstElementChild.reload();
+    location.reload();
  }
-document.querySelector("button").onclick = document.reload();
+document.querySelector("button").onclick = onclickButton;
