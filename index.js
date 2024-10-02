@@ -14,3 +14,8 @@ if (randomNumber1 > randomNumber2) {
 } else { 
     document.firstElementChild.querySelector("h1").innerHTML = "🏳️🏳️Its a draw!!!🏳️🏳️";
 }
+
+function onclickButton() {
+    document.firstElementChild.reload();
+ }
+document.querySelector("button").onclick = document.reload();
